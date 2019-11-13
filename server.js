@@ -391,6 +391,7 @@ agenda.define('send email alert', function(job, done) {
 });
 
 //agenda.start();
+//
 
 agenda.on('start', function(job) {
   console.log("Job %s starting", job.attrs.name);
