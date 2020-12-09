@@ -82,7 +82,7 @@ userSchema.methods.comparePassword = function(candidatePassword, cb) {
 var User = mongoose.model('User', userSchema);
 var Show = mongoose.model('Show', showSchema);
 
-mongoose.connect('34.68.110.7:30005');
+mongoose.connect('mongodb');
 
 var app = express();
 
